@@ -17,6 +17,7 @@ html{
 } */
 header{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./img/hero.jpg);
+    background-attachment: fixed;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -294,4 +295,45 @@ a:active{
     color: #555;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s, color 0.5s;
+}
+
+
+.section-testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./img/back-customers.jpg);
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    background-attachment: fixed;
+    /* border-radius: 10px; */
+}
+.test{
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    /* margin-top: 40px; */
+    position: relative;
+}
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 25px;
+}
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+blockquote::before{
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top:0;
+    left: -3px;
 }
