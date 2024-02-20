@@ -12,6 +12,9 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+/* .row{
+    width: 90%;
+} */
 header{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./img/hero.jpg);
     height: 100vh;
@@ -32,7 +35,7 @@ h1{
     position: absolute;
     width: 1140px;
     top: 50%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
 
 }
@@ -106,4 +109,53 @@ h1{
 {
     border-bottom: 2px solid #e67e22;
 
+}
+section{
+    padding: 80px 0px;
+    width: 90%;
+    margin: auto;
+}
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+.box{
+    padding: 1%;
+}
+h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+.box P{
+    font-size: 90%;
+    line-height: 145%;
+
+}
+.big-icon{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom:10px ;
 }
