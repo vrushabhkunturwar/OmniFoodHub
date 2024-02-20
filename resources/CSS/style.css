@@ -305,8 +305,10 @@ a:active{
     overflow: hidden;
     color: #fff;
     background-attachment: fixed;
+    
     /* border-radius: 10px; */
 }
+
 .test{
     margin-top: 40px;
     margin-bottom: -40px;
@@ -322,6 +324,7 @@ cite{
     font-size: 90%;
     display: block;
     margin-top: 25px;
+    margin-bottom: 40px;
 }
 cite img{
     height: 45px;
@@ -336,4 +339,54 @@ blockquote::before{
     position: absolute;
     top:0;
     left: -3px;
+}
+
+
+
+.plan-box{
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #ded4d4;
+}
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+.plan-price-meal{
+    font-size: 80%;
+
+}
+.plan-price span{
+    font-size: 40%;
+    font-weight: 300;
+}
+.plan-box ul {
+    list-style: none;
+}
+.plan-box ul li{
+    padding: 5px 0;
+    /* background-color: #fcfcfc; */
+}
+.plan-box div:last-child{
+    border: 0;
+    text-align: center;
+}
+.plan-box div:first-child{
+    /* background-color: #fcfcfc; */
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+}
+.head{
+    margin-top: 50px;
+    margin-bottom: -30px;
 }
